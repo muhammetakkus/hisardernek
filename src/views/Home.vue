@@ -53,12 +53,12 @@
       </div>
 
        <!--  -->
-      <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('images/hero_bg_1.jpg');" data-stellar-background-ratio="0.5" data-aos="fade">
+      <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('images/kumanya-1.jpeg');" data-stellar-background-ratio="0.5" data-aos="fade">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
               <h2 class="text-white">Hisar Eğitim ve Kültüre Hizmet Derneği</h2>
-              <p>Mustafa Şahin</p>
+              <p>Mustafa Şahin Kardeşimize Umut Olun !</p>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+            <img src="images/kurban.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-6">
             <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
