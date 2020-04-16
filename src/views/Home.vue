@@ -1,358 +1,496 @@
 <template>
-  <div class="home">
-      <div class="site-wrap">
-        <div class="site-navbar mt-4">
-          <div class="container py-1">
-            <div class="row align-items-center">
-              <div class="col-8 col-md-8 col-lg-4">
-                <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><strong>Hisar<span class="text-primary"> </span></strong></a></h1>
-              </div>
-              <div class="col-4 col-md-4 col-lg-8">
-                <nav class="site-navigation text-right text-md-right" role="navigation">
+  <div class="site-wrap"  id="home-section">
 
-                  <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
 
-                  <ul class="site-menu js-clone-nav d-none d-lg-block">
-                    <li>
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li class="active"><a href="about.html">About</a></li>
-                    <li class="has-children">
-                      <a href="apartments.html">Apartments</a>
-                      <ul class="dropdown arrow-top">
-                        <li><a href="#">Apartments</a></li>
-                        <li><a href="#">Rooms</a></li>
-                        <li><a href="#">Suites</a></li>
-                        <li class="has-children">
-                          <a href="#">Sub Menu</a>
-                          <ul class="dropdown">
-                            <li><a href="#">Menu One</a></li>
-                            <li><a href="#">Menu Two</a></li>
-                            <li><a href="#">Menu Three</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </nav>
-              </div>
+
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center position-relative">
+
+
+            <div class="site-logo">
+              <a href="index.html" class="text-black">
+                <span class="text-primary" style="text-transform: capitalize !important;">Hisar</span>
+              </a>
+            </div>
+
+              <nav class="site-navigation text-center ml-auto" role="navigation">
+
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li><a href="#home-section" class="nav-link">Anasayfa</a></li>
+                  <li><a href="#about-section" class="nav-link">Hakkımızda</a></li>
+                  <li><a href="#discover-section" class="nav-link">Mustafa</a></li>
+                  <li><a href="#donate-section" class="nav-link">Şahin</a></li>
+                  <li><a href="#blog-section" class="nav-link">Hisar</a></li>
+                  <li><a href="#contact-section" class="nav-link">İletişim</a></li>
+                </ul>
+              </nav>
+
+
+
+          <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+
+    </header>
+
+    <div class="owl-carousel slide-one-item">
+      <a href="#"><img src="images/hero_1.jpg" alt="Image" class="img-fluid"></a>
+      <a href="#"><img src="images/hero_2.jpg" alt="Image" class="img-fluid"></a>
+    </div>
+
+    <div class="d-block d-md-flex intro-engage">
+      <div class="">
+        <h2>Rescue An Orphan</h2>
+        <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
+      </div>
+      <div>
+        <h2>Feed The Hungry</h2>
+        <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
+      </div>
+      <div>
+        <h2>Free Education</h2>
+        <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
+      </div>
+    </div>
+
+    <div class="site-section bg-image overlay counter" style="background-image: url('images/hero_1_no-text.jpg');" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6 mb-4">
+            <figure class="block-img-video-1" data-aos="fade">
+              <a href="https://vimeo.com/45830194" class="popup-vimeo">
+                <span class="icon"><span class="icon-play"></span></span>
+                <img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto align-self-lg-center">
+            <h2 class="text-black mb-4 text-uppercase section-title">Our Mission</h2>
+            <p class="text-black">Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut, praesentium magnam, pariatur quae, necessitatibus</p>
+            <p class="text-black">Dolor, eligendi voluptate ducimus itaque esse autem perspiciatis sint! Recusandae dolor aliquid inventore sit,</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+            <div class="block-counter-1">
+              <span class="number"><span data-number="15">0</span></span>
+              <span class="caption text-black">Number of Orphanage</span>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+            <div class="block-counter-1">
+              <span class="number"><span data-number="392">0</span></span>
+              <span class="caption text-black">Number of Donations</span>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+            <div class="block-counter-1">
+              <span class="number"><span data-number="3293">0</span></span>
+              <span class="caption text-black">Number of Volunteers</span>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+            <div class="block-counter-1">
+              <span class="number"><span data-number="1212">0</span></span>
+              <span class="caption text-black">Number of Orphans</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="site-mobile-menu">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
-
-       <!--  -->
-      <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url('images/kumanya-1.jpeg');" data-stellar-background-ratio="0.5" data-aos="fade">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
-              <h2 class="text-white">Hisar Eğitim ve Kültüre Hizmet Derneği</h2>
-              <p>Mustafa Şahin Kardeşimize Umut Olun !</p>
+    <div class="site-section bg-light counter" id="discover-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <div class="block-heading-1">
+              <h2 class="text-black text-uppercase">Discover</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aperiam unde natus voluptates placeat accusamus vel laborum cupiditate. Reiciendis commodi perferendis dignissimos, amet quis.</p>
             </div>
           </div>
         </div>
-      </div>
+        <div class="row mb-5">
 
-      <div class="site-section">
+          <div class="col-lg-6 mb-5">
+            <img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto align-self-center">
+            <h3 class="text-black text-uppercase mb-4">Build Schools in Africa</h3>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quis, nemo explicabo cupiditate vero fugiat sit eius sequi.</p>
+
+            <div class="row mb-4">
+              <div class="col-md-6">
+                <div class="block-counter-1 block-counter-1-sm">
+                  <span class="number"><span data-number="15">0</span></span>
+                  <span class="caption text-black">Schools</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="block-counter-1 block-counter-1-sm">
+                  <span class="number"><span data-number="1039">0</span></span>
+                  <span class="caption text-black">Students</span>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+        <div class="row mb-5">
+
+          <div class="col-lg-6 mb-5 order-lg-2">
+            <img src="images/hero_2_no-text.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 mr-auto align-self-center order-lg-1">
+            <h3 class="text-black text-uppercase mb-4">Feeding Children in Africa</h3>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quis, nemo explicabo cupiditate vero fugiat sit eius sequi.</p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="block-counter-1 block-counter-1-sm">
+                  <span class="number"><span data-number="3298">0</span></span>
+                  <span class="caption text-black">Children</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="block-counter-1 block-counter-1-sm">
+                  <span class="number"><span data-number="38">0</span></span>
+                  <span class="caption text-black">Orphanage</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="site-section bg-image overlay" style="background-image: url('images/hero_1_no-text.jpg');" id="donate-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-5 text-center">
+            <h2 class="text-white mb-4">Etkileyici mübarek bir yazı..</h2>
+            <p><a href="#" class="btn btn-primary px-4 py-3 btn-block">BAĞIŞ YAP</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <img src="images/kurban.jpg" alt="Image" class="img-fluid">
+          <div class="col-md-6 col-lg-4 mb-4 text-center">
+            <span class="flaticon-piggy-bank d-block mb-3 display-3 text-secondary"></span>
+            <h3 class="text-primary h4 mb-2">Kurban</h3>
+            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
           </div>
-          <div class="col-lg-6">
-            <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-            <h2 class="mb-5">Our Office</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt
-              officia, error reiciendis ab quod?</p>
+          <div class="col-md-6 col-lg-4 mb-4 text-center">
+            <span class="flaticon-blood d-block mb-3 display-3 text-secondary"></span>
+            <h3 class="text-primary h4 mb-2">Zekat</h3>
+            <p>Praesentium magnam pariatur quae necessitatibus eligendi voluptate ducimus.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 text-center">
+            <span class="flaticon-food d-block mb-3 display-3 text-secondary"></span>
+            <h3 class="text-primary h4 mb-2">Fitre</h3>
+            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 text-center">
+            <span class="flaticon-donation d-block mb-3 display-3 text-secondary"></span>
+            <h3 class="text-primary h4 mb-2">Fidye</h3>
+            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 text-center">
+            <span class="flaticon-dollar d-block mb-3 display-3 text-secondary"></span>
+            <h3 class="text-primary h4 mb-2">Kumbara</h3>
+            <p>Praesentium magnam pariatur quae necessitatibus eligendi voluptate ducimus.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 text-center">
+            <span class="flaticon-unity d-block mb-3 display-3 text-secondary"></span>
+            <h3 class="text-primary h4 mb-2">İftar</h3>
+            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section" id="team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+              <h2 class="text-black text-uppercase section-title">Our Leadership</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis, eius, eos consectetur consequuntur sit. Aut, perspiciatis, reprehenderit.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up">
+            <div class="block-team-member-1 text-center rounded">
+              <figure>
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+              </figure>
+              <h3 class="font-size-20 text-white">Jean Smith</h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Mining Expert</span>
+              <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, repellat. At, soluta. Repellendus vero, consequuntur!</p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="block-team-member-1 text-center rounded">
+              <figure>
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle">
+              </figure>
+              <h3 class="font-size-20 text-white">Bob Carry</h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Project Manager</span>
+              <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quia veritatis, nam quam obcaecati fuga.</p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="block-team-member-1 text-center rounded">
+              <figure>
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle">
+              </figure>
+              <h3 class="font-size-20 text-white">Ricky Fisher</h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Engineer</span>
+              <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-      <div class="site-section">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-            <h2 class="mb-5">Team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt
-              officia, error reiciendis ab quod?</p>
+    <div class="site-section block-13 overlay bg-image" id="testimonials-section" data-aos="fade" style="background-image: url('images/hero_1_no-text.jpg');">
+      <div class="container">
+
+        <div class="text-center mb-5">
+          <h2 class="text-white text-uppercase section-title">Testimonial</h2>
+        </div>
+
+        <div class="owl-carousel nonloop-block-13">
+          <div>
+            <div class="block-testimony-1 text-center">
+
+              <blockquote class="mb-4">
+                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fugit excepturi sapiente voluptatum nulla odio quaerat quibusdam tempore similique doloremque veritatis et cupiditate, maiores cumque repudiandae explicabo tempora deserunt consequuntur?&rdquo;</p>
+              </blockquote>
+
+              <figure>
+                <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+              </figure>
+              <h3 class="font-size-20 text-white">Ricky Fisher</h3>
+            </div>
+          </div>
+
+          <div>
+            <div class="block-testimony-1 text-center">
+              <blockquote class="mb-4">
+                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fugit excepturi sapiente voluptatum nulla odio quaerat quibusdam tempore similique doloremque veritatis et cupiditate, maiores cumque repudiandae explicabo tempora deserunt consequuntur?&rdquo;</p>
+              </blockquote>
+
+              <figure>
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+              </figure>
+              <h3 class="font-size-20 text-white">Ken Davis</h3>
+            </div>
+          </div>
+
+          <div>
+            <div class="block-testimony-1 text-center">
+              <blockquote class="mb-4">
+                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fugit excepturi sapiente voluptatum nulla odio quaerat quibusdam tempore similique doloremque veritatis et cupiditate, maiores cumque repudiandae explicabo tempora deserunt consequuntur?&rdquo;</p>
+              </blockquote>
+
+              <figure>
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+              </figure>
+              <h3 class="font-size-20 text-white">Mellisa Griffin</h3>
+            </div>
+          </div>
+
+          <div>
+            <div class="block-testimony-1 text-center">
+              <blockquote class="mb-4">
+                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, fugit excepturi sapiente voluptatum nulla odio quaerat quibusdam tempore similique doloremque veritatis et cupiditate, maiores cumque repudiandae explicabo tempora deserunt consequuntur?&rdquo;</p>
+              </blockquote>
+
+              <figure>
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+              </figure>
+              <h3 class="font-size-20 text-white">Robert Steward</h3>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="site-section" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-7 text-center mb-5 text-center">
+            <h2 class="text-black text-uppercase section-title">Our Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ab possimus fugiat, autem aliquid, commodi quod voluptatum consectetur.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Megan Smith</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Co Founder</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
+          <div class="col-lg-6">
+            <div>
+              <a href="single.html" class="mb-4 d-block"><img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid rounded"></a>
+              <h2><a href="single.html">How to Invest In Investing Company</a></h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span> By <a href="single.html" class="by">James Cooper</a></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
+              <p><a href="single.html">Get Started</a></p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <a href="single.html" class="mb-4 d-block"><img src="images/hero_2_no-text.jpg" alt="Image" class="img-fluid rounded"></a>
+              <h2><a href="single.html">How to Invest In Investing Company</a></h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span> By <a href="single.html" class="by">James Cooper</a></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
+              <p><a href="single.html">Read More</a></p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
+        </div>
+      </div>
+    </div>
 
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Brooke Cagle</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Co Founder</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
-              </div>
-
-            </div>
+    <div class="site-section bg-light" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="text-black section-title text-uppercase">Contact Us</h2>
           </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Philip Martin</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Co Founder</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mb-5">
+            <form action="#" method="post">
+              <div class="form-group row">
+                <div class="col-md-6 mb-4 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
               </div>
 
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_4.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Steven Ericson</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Co Founder</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Email address">
+                </div>
               </div>
 
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Nathan Dumlao</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Co Founder</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                </div>
               </div>
-
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-5">
-            <div class="team-member">
-
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-
-              <div class="text">
-
-                <h2 class="mb-2 font-weight-light h4">Brooke Cagle</h2>
-                <span class="d-block mb-2 text-white-opacity-05">Co Founder</span>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit ullam reprehenderit nemo.</p>
-                <p>
-                  <a href="#" class="text-white p-2"><span class="icon-facebook"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-twitter"></span></a>
-                  <a href="#" class="text-white p-2"><span class="icon-linkedin"></span></a>
-                </p>
+              <div class="form-group row">
+                <div class="col-md-6 ml-auto">
+                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Send Message">
+                </div>
               </div>
-
-            </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
 
-      <div class="site-section">
-        <div class="container">
-
-          <div class="row">
-            <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
-              <h2 class="mb-5">Featured Apartments</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, fugit nam obcaecati fuga itaque deserunt officia, error reiciendis ab quod?</p>
-            </div>
-          </div>
-
-          <div class="site-block-retro d-block d-md-flex">
-
-            <a href="#" class="col1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-              <div class="image" style="background-image: url('images/img_2.jpg');"></div>
-              <div class="unit-9-content">
-                <h2>Baltimore Apartment</h2>
-                <span>$600/night</span>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
               </div>
-            </a>
-
-            <div class="col2 ml-auto">
-
-              <a href="#" class="col2-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="200">
-                <div class="image" style="background-image: url('images/img_3.jpg');"></div>
-                <div class="unit-9-content">
-                  <h2>Austin Apartment</h2>
-                  <span>$290/night</span>
-                </div>
-              </a>
-
-              <a href="#" class="col2-row2 unit-9 no-height" data-aos="fade-up" data-aos-delay="300">
-                <div class="image" style="background-image: url('images/img_1.jpg');"></div>
-                <div class="unit-9-content">
-                  <h2>Atlanta Apartment</h2>
-                  <span>$1,290/night</span>
-                </div>
-              </a>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
 
             </div>
-
           </div>
+          <div class="col-md-4 ml-auto">
 
-        </div>
-      </div>
-
-
-
-      <div class="bg-primary" data-aos="fade">
-        <div class="container">
-          <div class="row">
-            <p>test</p>
-          </div>
-        </div>
-      </div>
-
-      <footer class="site-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
+            <div class="mb-5">
               <div class="mb-5">
-                <h3 class="footer-heading mb-4">About Apart</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus odio!</p>
+                <h2 class="footer-heading mb-4">Some Paragraph</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum libero iusto dolorum vero atque aliquid.</p>
               </div>
-              <div class="mb-5">
-                <h3 class="footer-heading mb-4">Subscribe</h3>
-                <form action="#" method="post" class="site-block-subscribe">
-                  <div class="input-group mb-3">
-                    <input type="text" class="form-control border-secondary bg-transparent" placeholder="Enter your email"
-                      aria-label="Enter Email" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary rounded-top-right-0" type="button" id="button-addon2">Subscribe</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="row mb-5">
-                <div class="col-md-12">
-                  <h3 class="footer-heading mb-4">Navigations</h3>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                  <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Apartments</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Featured Apartment</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                  <ul class="list-unstyled">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Membership</a></li>
-                  </ul>
-                </div>
-              </div>
+              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
 
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="footer-heading mb-4">Follow Us</h3>
-
-                  <div>
-                    <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                    <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                    <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
                   </div>
                 </div>
               </div>
 
-            </div>
 
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="mb-5">
-                <h3 class="footer-heading mb-4">Watch Live Streaming</h3>
-
-                <div class="block-16">
-                  <figure>
-                    <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid rounded">
-                    <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo"><span class="icon-play"></span></a>
-                  </figure>
-                </div>
-
-              </div>
-
-            </div>
-
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </form>
           </div>
-
-          <div class="row text-center">
-            <div class="col-md-12">
-              <p> tester xxx </p>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+              --- copy ---
+            </p>
             </div>
           </div>
 
         </div>
-      </footer>
+      </div>
+    </footer>
+
   </div>
 </template>
 
@@ -371,13 +509,9 @@ export default {
    @import '../assets/css/magnific-popup.css';
    @import '../assets/css/jquery-ui.css';
    @import '../assets/css/owl.carousel.min.css';
-   /* @import '../assets/owl.theme.default.min.css'; */
+   @import '../assets/css/owl.theme.default.min.css';
    @import '../assets/css/bootstrap-datepicker.css';
-   /* @import '../assets/css/mediaelementplayer.css'; */
-
-   @import '../assets/css/animate.css';
    @import '../assets/fonts/flaticon/font/flaticon.css';
-   @import '../assets/css/fl-bigmug-line.css';
    @import '../assets/css/aos.css';
    @import '../assets/css/style.css';
 

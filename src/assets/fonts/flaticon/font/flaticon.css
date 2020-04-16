@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 24/09/2018 04:43
+  	Creation date: 01/05/2019 11:34
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -24,8 +25,7 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  speak: none;
-  font-style: normal;
+        font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
@@ -36,10 +36,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-worker:before { content: "\f100"; }
-.flaticon-industry:before { content: "\f101"; }
-.flaticon-industrial-robot:before { content: "\f102"; }
-.flaticon-excavator:before { content: "\f103"; }
-.flaticon-gears:before { content: "\f104"; }
-.flaticon-agreement:before { content: "\f105"; }
-.flaticon-planet-earth:before { content: "\f106"; }
+.flaticon-piggy-bank:before { content: "\f100"; }
+.flaticon-blood:before { content: "\f101"; }
+.flaticon-food:before { content: "\f102"; }
+.flaticon-donation:before { content: "\f103"; }
+.flaticon-dollar:before { content: "\f104"; }
+.flaticon-unity:before { content: "\f105"; }

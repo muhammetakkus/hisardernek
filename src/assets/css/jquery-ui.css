@@ -282,7 +282,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-widget-header {
 	border: 1px solid #4297d7;
-	/* background: #5c9ccc url("/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x; */
+	/* background: #5c9ccc url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x; */
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -419,16 +419,16 @@ button.ui-button::-moz-focus-inner {
 .ui-state-focus .ui-icon {
 	/* background-image: url("images/ui-icons_217bc0_256x240.png"); */
 }
-.ui-state-active .ui-icon {
-	/* background-image: url("images/ui-icons_f9bd01_256x240.png"); */
+/* .ui-state-active .ui-icon {
+	background-image: url("images/ui-icons_f9bd01_256x240.png");
 }
 .ui-state-highlight .ui-icon {
-	/* background-image: url("images/ui-icons_2e83ff_256x240.png"); */
+	background-image: url("images/ui-icons_2e83ff_256x240.png");
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	/* background-image: url("images/ui-icons_cd0a0a_256x240.png"); */
-}
+	background-image: url("images/ui-icons_cd0a0a_256x240.png");
+} */
 
 /* positioning */
 .ui-icon-blank { background-position: 16px 16px; }
