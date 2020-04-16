@@ -1,51 +1,11 @@
 <template>
   <div class="site-wrap"  id="home-section">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-
-    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
-
-      <div class="container">
-        <div class="row align-items-center position-relative">
-
-
-            <div class="site-logo">
-              <a href="index.html" class="text-black">
-                <span class="text-primary" style="text-transform: capitalize !important;">Hisar</span>
-              </a>
-            </div>
-
-              <nav class="site-navigation text-center ml-auto" role="navigation">
-
-                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="#home-section" class="nav-link">Anasayfa</a></li>
-                  <li><a href="#about-section" class="nav-link">Hakkımızda</a></li>
-                  <li><a href="#discover-section" class="nav-link">Mustafa</a></li>
-                  <li><a href="#donate-section" class="nav-link">Şahin</a></li>
-                  <li><a href="#blog-section" class="nav-link">Hisar</a></li>
-                  <li><a href="#contact-section" class="nav-link">İletişim</a></li>
-                </ul>
-              </nav>
-
-
-
-          <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-        </div>
-      </div>
-
-    </header>
+    <Header></Header>
 
     <div class="owl-carousel slide-one-item">
-      <a href="#"><img src="images/hero_1.jpg" alt="Image" class="img-fluid"></a>
+      <a href="#"><img src="images/kumanya.png" alt="Image" class="img-fluid"></a> <!-- 1500 x 800 px-->
+      <a href="#"><img src="images/hero_2.jpg" alt="Image" class="img-fluid"></a>
       <a href="#"><img src="images/hero_2.jpg" alt="Image" class="img-fluid"></a>
     </div>
 
@@ -76,36 +36,40 @@
             </figure>
           </div>
           <div class="col-lg-5 ml-auto align-self-lg-center">
-            <h2 class="text-black mb-4 text-uppercase section-title">Our Mission</h2>
-            <p class="text-black">Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut, praesentium magnam, pariatur quae, necessitatibus</p>
-            <p class="text-black">Dolor, eligendi voluptate ducimus itaque esse autem perspiciatis sint! Recusandae dolor aliquid inventore sit,</p>
+            <h2 class="text-black mb-4 text-uppercase section-title">Hakkımızda</h2>
+            <p class="text-black">
+              Hikayemiz 2015 yılında Hisar Eğitim ve Kültüre Hizmet Derneği adı altında başladı.
+            </p>
+            <p class="text-black">
+              Misyon - Vizyon
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
             <div class="block-counter-1">
-              <span class="number"><span data-number="15">0</span></span>
-              <span class="caption text-black">Number of Orphanage</span>
+              <span class="number"><span data-number="313">0</span></span>
+              <span class="caption text-black">Öğrenci</span>
             </div>
           </div>
           <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
             <div class="block-counter-1">
-              <span class="number"><span data-number="392">0</span></span>
-              <span class="caption text-black">Number of Donations</span>
+              <span class="number"><span data-number="492">0</span></span>
+              <span class="caption text-black">Aile</span>
             </div>
           </div>
           <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
             <div class="block-counter-1">
-              <span class="number"><span data-number="3293">0</span></span>
-              <span class="caption text-black">Number of Volunteers</span>
+              <span class="number"><span data-number="571">0</span></span>
+              <span class="caption text-black">İhtiyaç Sahibi</span>
             </div>
           </div>
-          <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+          <!-- <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
             <div class="block-counter-1">
               <span class="number"><span data-number="1212">0</span></span>
               <span class="caption text-black">Number of Orphans</span>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -290,10 +254,10 @@
       </div>
     </div>
 
-    <div class="site-section block-13 overlay bg-image" id="testimonials-section" data-aos="fade" style="background-image: url('images/hero_1_no-text.jpg');">
-      <div class="container">
+    <!-- <div class="site-section block-13 overlay bg-image" id="testimonials-section" data-aos="fade" style="background-image: url('images/hero_1_no-text.jpg');">
+      <div class="container"> -->
 
-        <div class="text-center mb-5">
+        <!-- <div class="text-center mb-5">
           <h2 class="text-white text-uppercase section-title">Testimonial</h2>
         </div>
 
@@ -352,10 +316,10 @@
           </div>
 
 
-        </div>
+        </div> -->
 
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
 
     <div class="site-section" id="blog-section">
       <div class="container">
@@ -368,7 +332,7 @@
         <div class="row">
           <div class="col-lg-6">
             <div>
-              <a href="single.html" class="mb-4 d-block"><img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid rounded"></a>
+              <a href="single.html" class="mb-4 d-block"><img src="images/umut.png" alt="Image" class="img-fluid rounded"></a>
               <h2><a href="single.html">How to Invest In Investing Company</a></h2>
               <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span> By <a href="single.html" class="by">James Cooper</a></p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
@@ -430,76 +394,21 @@
       </div>
     </div>
 
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-8">
-                <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
-              </div>
-              <div class="col-md-4 ml-auto">
-                <h2 class="footer-heading mb-4">Features</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Privacy</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-md-4 ml-auto">
-
-            <div class="mb-5">
-              <div class="mb-5">
-                <h2 class="footer-heading mb-4">Some Paragraph</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum libero iusto dolorum vero atque aliquid.</p>
-              </div>
-              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
-
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
-                  </div>
-                </div>
-              </div>
-
-
-              <h2 class="footer-heading mb-4">Follow Us</h2>
-                <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </form>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-            <p>
-              --- copy ---
-            </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
+    <Footer></Footer>
 
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
+  components: {
+    Header, Footer
+  }
 }
 </script>
 
