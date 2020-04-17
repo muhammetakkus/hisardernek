@@ -402,6 +402,7 @@
               <p class="hidden">
                 <label><input name="bot-field"></label>
               </p>
+              <input type="hidden" name="contact" value="contact" />
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
                   <input type="text" class="form-control" v-model="form.name" placeholder="Adınız">
