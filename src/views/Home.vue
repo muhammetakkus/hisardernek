@@ -398,7 +398,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-6 mb-5">
-            <form @submit.prevent="handleSubmit" action="/#contact" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form @submit.prevent="handleSubmit" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
               <p style="visibility: hidden;">
                 <label><input name="bot-field" /></label>
               </p>
@@ -464,16 +464,20 @@ export default {
     donate() {
       console.log(' ');
     },
-    encode(data) {
-      return Object.keys(data).map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`).join('&')
+    encode (data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join("&");
     },
     handleSubmit() {
-      fetch('/#contact', {
+      fetch('/', {
         method: 'post',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: this.encode({'form-name': 'contact', ...this.form})
+        body: this.encode({"form-name": "contact", ...this.form})
       })
       .then((r) => console.log(r + 'başarılı'))
       .catch(e => console.log(e))
