@@ -4,8 +4,8 @@
     <Header></Header>
 
     <div class="owl-carousel slide-one-item">
-      <a href="#"><img src="images/kumanya.png" alt="Image" class="img-fluid"></a> <!-- 1500 x 800 px-->
-      <a href="#"><img src="images/iftar.png" alt="Image" class="img-fluid"></a>
+      <a @click="donation()"><img src="images/kumanya.png" alt="Image" class="img-fluid"></a> <!-- 1500 x 800 px-->
+      <a @click="donation()"><img src="images/iftar.png" alt="Image" class="img-fluid"></a>
     </div>
 
     <div class="d-block d-md-flex intro-engage">
@@ -335,20 +335,20 @@
         <div class="row">
           <div class="col-lg-6">
             <div>
-              <a href="single.html" class="mb-4 d-block"><img src="images/kumanya-demircan.png" alt="Image" class="img-fluid rounded"></a>
-              <h2><a href="single.html">Kumanya Kampanyalarımız</a></h2>
-              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">Nisan 2020</span> - <a href="single.html" class="by">Hisar</a></p>
+              <a @click="donation()" class="mb-4 d-block"><img src="images/kumanya-demircan.png" alt="Image" class="img-fluid rounded"></a>
+              <h2><a @click="donation()">Kumanya Kampanyalarımız</a></h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">Nisan 2020</span> - <a @click="donation()" class="by">Hisar</a></p>
               <p>Kumanya yardımlarınızı ulaştırıyoruz.</p>
-              <p><a href="single.html">-</a></p>
+              <p><a @click="donation()">-</a></p>
             </div>
           </div>
           <div class="col-lg-6">
             <div>
-              <a href="single.html" class="mb-4 d-block"><img src="images/kurban-stock.png" alt="Image" class="img-fluid rounded"></a>
-              <h2><a href="single.html">Kurban</a></h2>
-              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">2020</span> - <a href="single.html" class="by">Hisar</a></p>
+              <a @click="donation()" class="mb-4 d-block"><img src="images/kurban-stock.png" alt="Image" class="img-fluid rounded"></a>
+              <h2><a @click="donation()">Kurban</a></h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">2020</span> - <a @click="donation()" class="by">Hisar</a></p>
               <p>Yıl boyu akika, şükür ve diğer nafile kurbanlarınızı kestirebilirsiniz.</p>
-              <p><a href="single.html">-</a></p>
+              <p><a @click="donation()">-</a></p>
             </div>
           </div>
 
