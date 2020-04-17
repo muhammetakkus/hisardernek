@@ -399,6 +399,9 @@
         <div class="row justify-content-center">
           <div class="col-lg-6 mb-5">
             <form @submit.prevent="handleSubmit" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <p class="hidden">
+                <label><input name="bot-field"></label>
+              </p>
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
                   <input type="text" class="form-control" v-model="form.name" placeholder="Adınız">
