@@ -490,6 +490,7 @@ export default {
    @import '../assets/css/style.css';
 
    .dernek-photo {
+     width: 100%;
      box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
      border: 2px solid #eee;
      @media (min-width: 768px) {
