@@ -8,7 +8,10 @@
       <a @click="donation()"><img src="images/iftar.png" alt="Image" class="img-fluid"></a>
     </div>
 
+    <h1 class="mb-0 pt-2" style="background: #fd5f00; color: #fff;">Hayra Ortak Ol</h1>
+
     <div class="d-block d-md-flex intro-engage">
+
       <div>
         <h2>KUMANYA</h2>
         <p>Kumanyalarınızı ihtiyaç sahibi öğrencilere ulaştırıyoruz..</p>
@@ -35,7 +38,7 @@
 
           <div class="col-lg-6 mb-4">
             <figure class="block-img-video-1" data-aos="fade">
-              <a href="images/dernek.jpg" class="popup-vimeo">
+              <a href="images/dernek.jpg" class="popup-vimeo" style="overflow: hidden;">
                 <img src="images/dernek.jpg" alt="Image" class="img-fluid dernek-photo">
               </a>
             </figure>
@@ -395,25 +398,25 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-6 mb-5">
-            <form action="#" method="post">
+            <form @submit.prevent="handleSubmit" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="Adınız">
+                  <input type="text" class="form-control" v-model="form.name" placeholder="Adınız">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Soyadınız">
+                  <input type="text" class="form-control" v-model="form.sname" placeholder="Soyadınız">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Email adresiniz">
+                  <input type="text" class="form-control" v-model="form.email" placeholder="Email adresiniz">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Mesajınız.." cols="30" rows="10"></textarea>
+                  <textarea name="" id="" class="form-control" v-model="form.message" placeholder="Mesajınız.." cols="30" rows="10"></textarea>
                 </div>
               </div>
               <div class="form-group row">
@@ -442,9 +445,33 @@ export default {
   components: {
     Header, Footer
   },
+  data () {
+   return {
+     form: {
+       name: '',
+       sname: '',
+       email: '',
+       message: ''
+     }
+   }
+ },
   methods: {
     donate() {
       console.log(' ');
+    },
+    encode(data) {
+      return Object.keys(data).map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`).join('&')
+    },
+    handleSubmit() {
+      fetch('/', {
+        method: 'post',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: this.encode({'form-name': 'contact', ...this.form})
+      })
+      .then(() => console.log('başarılı'))
+      .catch(e => console.log(e))
     }
   }
 }
@@ -463,8 +490,10 @@ export default {
    @import '../assets/css/style.css';
 
    .dernek-photo {
-     max-width: 400px !important;
      box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
      border: 2px solid #eee;
+     @media (min-width: 768px) {
+        /* max-width: 400px !important; */
+     }
    }
 </style>
