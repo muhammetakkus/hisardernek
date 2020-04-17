@@ -5,22 +5,26 @@
 
     <div class="owl-carousel slide-one-item">
       <a href="#"><img src="images/kumanya.png" alt="Image" class="img-fluid"></a> <!-- 1500 x 800 px-->
-      <a href="#"><img src="images/hero_2.jpg" alt="Image" class="img-fluid"></a>
-      <a href="#"><img src="images/hero_2.jpg" alt="Image" class="img-fluid"></a>
+      <a href="#"><img src="images/iftar.png" alt="Image" class="img-fluid"></a>
     </div>
 
     <div class="d-block d-md-flex intro-engage">
-      <div class="">
-        <h2>Rescue An Orphan</h2>
-        <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
+      <div>
+        <h2>KUMANYA</h2>
+        <p>Kumanyalarınızı ihtiyaç sahibi öğrencilere ulaştırıyoruz..</p>
       </div>
       <div>
-        <h2>Feed The Hungry</h2>
-        <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
+        <h2>İFTAR</h2>
+        <p>
+          Peygamber Efendimiz (s.a.v.), “Kim bir oruçluya <br> iftar ettirirse,
+          o oruçlunun alacağı sevabın aynısı, iftar ettirene de yazılır ve oruç <br>
+          tutanın sevabından da bir şey eksilmez.” buyurmuştur. <br>
+          İhtiyaç sahibi öğrenci ve ailelerine iftar verebilirsiniz..
+        </p>
       </div>
       <div>
-        <h2>Free Education</h2>
-        <p>Accusantium dignissimos voluptas rem consequatur blanditiis error ratione illo sit quasi ut praesentium magnam</p>
+        <h2>ZEKAT</h2>
+        <p>Okuyan öğrenciler zekatlarınız ile geleceğe umutla bakacak..</p>
       </div>
     </div>
 
@@ -38,10 +42,10 @@
           <div class="col-lg-5 ml-auto align-self-lg-center">
             <h2 class="text-black mb-4 text-uppercase section-title">Hakkımızda</h2>
             <p class="text-black">
-              Hikayemiz 2015 yılında Hisar Eğitim ve Kültüre Hizmet Derneği adı altında başladı.
+              Hikayemiz 2015 yılında Hisar Eğitim ve Kültüre Hizmet Derneği adı altında başladı. Genç neslin eğitim ve terbiyesi için madden ve manen hayatın her alanında onları destekliyoruz..
             </p>
             <p class="text-black">
-              Misyon - Vizyon
+              Bir neslin ihyası kötülerin imhasıyla değil, yeni neslin eğitim ve terbiyesiyle mümkündür.
             </p>
           </div>
         </div>
@@ -79,18 +83,20 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
             <div class="block-heading-1">
-              <h2 class="text-black text-uppercase">Discover</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aperiam unde natus voluptates placeat accusamus vel laborum cupiditate. Reiciendis commodi perferendis dignissimos, amet quis.</p>
+              <h2 class="text-black text-uppercase">Eğitime Destek</h2>
+              <p>Eğitime ve öğrencilerimize değer katıyoruz.</p>
             </div>
           </div>
         </div>
-        <div class="row mb-5">
+
+
+        <!-- <div class="row mb-5">
 
           <div class="col-lg-6 mb-5">
             <img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto align-self-center">
-            <h3 class="text-black text-uppercase mb-4">Build Schools in Africa</h3>
+            <h3 class="text-black text-uppercase mb-4">Eğitime Destek</h3>
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quis, nemo explicabo cupiditate vero fugiat sit eius sequi.</p>
 
             <div class="row mb-4">
@@ -111,9 +117,7 @@
 
           </div>
 
-
-
-        </div>
+        </div> -->
 
         <div class="row mb-5">
 
@@ -121,20 +125,20 @@
             <img src="images/hero_2_no-text.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 mr-auto align-self-center order-lg-1">
-            <h3 class="text-black text-uppercase mb-4">Feeding Children in Africa</h3>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quis, nemo explicabo cupiditate vero fugiat sit eius sequi.</p>
+            <h3 class="text-black text-uppercase mb-4">Eğitime Tam Destek</h3>
+            <p class="mb-5">Eğitime ve öğrencilerimizi destekliyoruz.</p>
 
             <div class="row">
               <div class="col-md-6">
                 <div class="block-counter-1 block-counter-1-sm">
-                  <span class="number"><span data-number="3298">0</span></span>
-                  <span class="caption text-black">Children</span>
+                  <span class="number"><span data-number="313">0</span></span>
+                  <span class="caption text-black">Öğrenci</span>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="block-counter-1 block-counter-1-sm">
                   <span class="number"><span data-number="38">0</span></span>
-                  <span class="caption text-black">Orphanage</span>
+                  <span class="caption text-black">Farklı Okul</span>
                 </div>
               </div>
             </div>
@@ -194,9 +198,9 @@
       </div>
     </div>
 
-    <div class="site-section" id="team-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
+    <!-- <div class="site-section" id="team-section">
+      <div class="container"> -->
+        <!-- <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
               <h2 class="text-black text-uppercase section-title">Our Leadership</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis, eius, eos consectetur consequuntur sit. Aut, perspiciatis, reprehenderit.</p>
@@ -250,9 +254,9 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </div> -->
+      <!-- </div>
+    </div> -->
 
     <!-- <div class="site-section block-13 overlay bg-image" id="testimonials-section" data-aos="fade" style="background-image: url('images/hero_1_no-text.jpg');">
       <div class="container"> -->
@@ -325,27 +329,27 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-7 text-center mb-5 text-center">
-            <h2 class="text-black text-uppercase section-title">Our Blog</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ab possimus fugiat, autem aliquid, commodi quod voluptatum consectetur.</p>
+            <h2 class="text-black text-uppercase section-title">Güncel Faaliyetler</h2>
+            <p>Yapmış olduğunuz yardımlar, bir neslin ihyasına vesile oluyor. Siz de bu yardım seferberliğine ortak olabilirsiniz.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-6">
             <div>
-              <a href="single.html" class="mb-4 d-block"><img src="images/umut.png" alt="Image" class="img-fluid rounded"></a>
-              <h2><a href="single.html">How to Invest In Investing Company</a></h2>
-              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span> By <a href="single.html" class="by">James Cooper</a></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
-              <p><a href="single.html">Get Started</a></p>
+              <a href="single.html" class="mb-4 d-block"><img src="images/kumanya-demircan.png" alt="Image" class="img-fluid rounded"></a>
+              <h2><a href="single.html">Kumanya Kampanyalarımız</a></h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">Nisan 2020</span> - <a href="single.html" class="by">Hisar</a></p>
+              <p>Kumanya yardımlarınızı ulaştırıyoruz.</p>
+              <p><a href="single.html">-</a></p>
             </div>
           </div>
           <div class="col-lg-6">
             <div>
-              <a href="single.html" class="mb-4 d-block"><img src="images/hero_2_no-text.jpg" alt="Image" class="img-fluid rounded"></a>
-              <h2><a href="single.html">How to Invest In Investing Company</a></h2>
-              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span> By <a href="single.html" class="by">James Cooper</a></p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
-              <p><a href="single.html">Read More</a></p>
+              <a href="single.html" class="mb-4 d-block"><img src="images/kurban-stock.png" alt="Image" class="img-fluid rounded"></a>
+              <h2><a href="single.html">Kurban</a></h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">2020</span> - <a href="single.html" class="by">Hisar</a></p>
+              <p>Yıl boyu akika, şükür ve diğer nafile kurbanlarınızı kestirebilirsiniz.</p>
+              <p><a href="single.html">-</a></p>
             </div>
           </div>
 
@@ -357,7 +361,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
-            <h2 class="text-black section-title text-uppercase">Contact Us</h2>
+            <h2 class="text-black section-title text-uppercase">İletişim</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -365,27 +369,27 @@
             <form action="#" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="First name">
+                  <input type="text" class="form-control" placeholder="Adınız">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="First name">
+                  <input type="text" class="form-control" placeholder="Soyadınız">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Email address">
+                  <input type="text" class="form-control" placeholder="Email adresiniz">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                  <textarea name="" id="" class="form-control" placeholder="Mesajınız.." cols="30" rows="10"></textarea>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-md-6 ml-auto">
-                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Send Message">
+                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Gönder">
                 </div>
               </div>
             </form>
@@ -423,5 +427,4 @@ export default {
    @import '../assets/fonts/flaticon/font/flaticon.css';
    @import '../assets/css/aos.css';
    @import '../assets/css/style.css';
-
 </style>

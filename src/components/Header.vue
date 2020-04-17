@@ -22,8 +22,8 @@
             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
               <li><a href="#home-section" class="nav-link">Anasayfa</a></li>
               <li><a href="#about-section" class="nav-link">Hakkımızda</a></li>
+              <li><a href="#discover-section" class="nav-link">Projeler</a></li>
               <li><a href="#discover-section" class="nav-link">Faaliyetler</a></li>
-              <li><a href="#donate-section" class="nav-link">Projeler</a></li>
               <li><a href="#blog-section" class="nav-link">Bağış</a></li>
               <li><a href="#contact-section" class="nav-link">İletişim</a></li>
             </ul>
