@@ -398,34 +398,35 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-6 mb-5">
-            <form @submit.prevent="handleSubmit" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-              <p class="hidden">
-                <label><input name="bot-field"></label>
+            <form @submit.prevent="handleSubmit" action="/#contact" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <p style="visibility: hidden;">
+                <label><input name="bot-field" /></label>
               </p>
-              <input type="hidden" name="contact" value="contact" />
+              <input type="hidden" name="form-name" value="contact" />
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" v-model="form.name" placeholder="Adınız">
+                  <input type="text" class="form-control" name="name" v-model="form.name" placeholder="Adınız">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control" v-model="form.sname" placeholder="Soyadınız">
+                  <input type="text" class="form-control" name="sname" v-model="form.sname" placeholder="Soyadınız">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" class="form-control" v-model="form.email" placeholder="Email adresiniz">
+                  <input type="text" class="form-control" name="email" v-model="form.email" placeholder="Email adresiniz">
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" v-model="form.message" placeholder="Mesajınız.." cols="30" rows="10"></textarea>
+                  <textarea name="message" id="" class="form-control" v-model="form.message" placeholder="Mesajınız.." cols="30" rows="10"></textarea>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-md-6 ml-auto">
-                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Gönder">
+                  <!-- <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Gönder"> -->
+                  <button type="submit" name="button">Gönder</button>
                 </div>
               </div>
             </form>
@@ -467,14 +468,14 @@ export default {
       return Object.keys(data).map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`).join('&')
     },
     handleSubmit() {
-      fetch('/', {
+      fetch('/#contact', {
         method: 'post',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         },
         body: this.encode({'form-name': 'contact', ...this.form})
       })
-      .then(() => console.log('başarılı'))
+      .then((r) => console.log(r + 'başarılı'))
       .catch(e => console.log(e))
     }
   }
