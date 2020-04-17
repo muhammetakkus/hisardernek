@@ -31,11 +31,12 @@
     <div class="site-section bg-image overlay counter" style="background-image: url('images/hero_1_no-text.jpg');" id="about-section">
       <div class="container">
         <div class="row mb-5">
+
+
           <div class="col-lg-6 mb-4">
             <figure class="block-img-video-1" data-aos="fade">
-              <a href="https://vimeo.com/45830194" class="popup-vimeo">
-                <span class="icon"><span class="icon-play"></span></span>
-                <img src="images/hero_1_no-text.jpg" alt="Image" class="img-fluid">
+              <a href="images/dernek.jpg" class="popup-vimeo">
+                <img src="images/dernek.jpg" alt="Image" class="img-fluid dernek-photo">
               </a>
             </figure>
           </div>
@@ -78,16 +79,16 @@
       </div>
     </div>
 
-    <div class="site-section bg-light counter" id="discover-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
+    <!-- <div class="site-section bg-light counter" id="discover-section">
+      <div class="container"> -->
+        <!-- <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
             <div class="block-heading-1">
               <h2 class="text-black text-uppercase">Eğitime Destek</h2>
               <p>Eğitime ve öğrencilerimize değer katıyoruz.</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
         <!-- <div class="row mb-5">
@@ -119,8 +120,7 @@
 
         </div> -->
 
-        <div class="row mb-5">
-
+        <!-- <div class="row mb-5">
           <div class="col-lg-6 mb-5 order-lg-2">
             <img src="images/hero_2_no-text.jpg" alt="Image" class="img-fluid">
           </div>
@@ -144,54 +144,53 @@
             </div>
 
           </div>
-      </div>
-    </div>
-    </div>
+        </div> -->
+      <!-- </div>
+    </div> -->
 
-    <div class="site-section bg-image overlay" style="background-image: url('images/hero_1_no-text.jpg');" id="donate-section">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-lg-5 text-center">
-            <h2 class="text-white mb-4">Etkileyici mübarek bir yazı..</h2>
-            <p><a href="#" class="btn btn-primary px-4 py-3 btn-block">BAĞIŞ YAP</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section">
+    <div class="site-section" id="discover-section">
       <div class="container">
         <div class="row">
+          <!-- Title -->
+          <div class="col-12 text-center mb-12 text-center mb-5">
+            <h2 class="text-black section-title ">Faaliyetlerimiz</h2>
+            <p> </p>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-md-6 col-lg-4 mb-4 text-center">
-            <span class="flaticon-piggy-bank d-block mb-3 display-3 text-secondary"></span>
+            <!-- <span class="flaticon-share d-block mb-3 display-3 text-secondary"></span> -->
+            <span class="d-block mb-3 display-3 text-secondary">
+              <img src="images/sheep.png" alt="kurban" width="90px">
+            </span>
             <h3 class="text-primary h4 mb-2">Kurban</h3>
-            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
+            <p>Kurban hizmeti.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-blood d-block mb-3 display-3 text-secondary"></span>
             <h3 class="text-primary h4 mb-2">Zekat</h3>
-            <p>Praesentium magnam pariatur quae necessitatibus eligendi voluptate ducimus.</p>
+            <p>İhtiyaç sahibi öğrenciler için zekatlarınıza talibiz.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-food d-block mb-3 display-3 text-secondary"></span>
             <h3 class="text-primary h4 mb-2">Fitre</h3>
-            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
+            <p>Fitrelerinizi Ramazan-ı şerifte ihtiyaç sahibi ailelerin iftar sofralarıyla buluşturun.</p>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-donation d-block mb-3 display-3 text-secondary"></span>
             <h3 class="text-primary h4 mb-2">Fidye</h3>
-            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
+            <p>Oruç ve hac fidyeleriniz ile bir iftarlı'nın iftarını karşılayın.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-dollar d-block mb-3 display-3 text-secondary"></span>
             <h3 class="text-primary h4 mb-2">Kumbara</h3>
-            <p>Praesentium magnam pariatur quae necessitatibus eligendi voluptate ducimus.</p>
+            <p>Az sadaka çok belayı def eder. Her evde bir kumbara.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-unity d-block mb-3 display-3 text-secondary"></span>
             <h3 class="text-primary h4 mb-2">İftar</h3>
-            <p>Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.</p>
+            <p>İftarlarınızı ihtiyaç sahibi aileler ile buluşturuyoruz.</p>
           </div>
 
         </div>
@@ -329,7 +328,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-7 text-center mb-5 text-center">
-            <h2 class="text-black text-uppercase section-title">Güncel Faaliyetler</h2>
+            <h2 class="text-black section-title">Güncel Faaliyetler</h2>
             <p>Yapmış olduğunuz yardımlar, bir neslin ihyasına vesile oluyor. Siz de bu yardım seferberliğine ortak olabilirsiniz.</p>
           </div>
         </div>
@@ -357,11 +356,41 @@
       </div>
     </div>
 
+    <!-- Donation -->
+    <div class="site-section bg-image overlay" style="background-image: url('images/hero_1_no-text.jpg');" id="donate-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 class="text-white mb-4">Az sada çok belayı def eder.</h2>
+            <p>
+              <b>KUVEYTTÜRK DERNEK HESAP NO:</b>
+
+              <h3>
+                TR 46 0020 5000 0067 3120 6000 01 (TL) <br><br>
+
+                TR 62 0020 5000 0067 3120 6001 01 ($) <br><br>
+
+                TR 35 0020 5000 0067 3120 6001 02 (€) <br><br>
+
+                Yurt Dışı Havale İçin Svit Kodu ( KTEFTRIS )
+              </h3>
+              <span>
+                Sefaköy Kartaltepe Eğitim Ve Kültüre Hizmet Derneği
+                Küçükçekmece Vergi Dairesi
+                758 026 3473
+              </span>
+            </p>
+            <p><a @click.prevent="donate()" class="btn btn-primary px-4 py-3 btn-block" style="color: #fff;">BAĞIŞ YAP</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="site-section bg-light" id="contact-section">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
-            <h2 class="text-black section-title text-uppercase">İletişim</h2>
+            <h2 class="text-black section-title">İletişim</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -412,6 +441,11 @@ export default {
   name: 'Home',
   components: {
     Header, Footer
+  },
+  methods: {
+    donate() {
+      console.log(' ');
+    }
   }
 }
 </script>
@@ -427,4 +461,10 @@ export default {
    @import '../assets/fonts/flaticon/font/flaticon.css';
    @import '../assets/css/aos.css';
    @import '../assets/css/style.css';
+
+   .dernek-photo {
+     max-width: 400px !important;
+     box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+     border: 2px solid #eee;
+   }
 </style>
